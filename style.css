@@ -66,8 +66,8 @@ p{
 .img2{
     height: 276px;
     width: 228px;
-    margin-top: 15px;
     margin: 0 auto;
+    margin-top: 40px;
 }
 .inside1{
     display: flex;
@@ -100,7 +100,7 @@ p{
 }
 .btn--text{
     margin: 0 auto;
-    font-weight: 900;
+    font-weight: 700;
 }
 button{
     background-color: #Ff5900;
@@ -149,6 +149,7 @@ h4,h3{
 }
 h4{
     margin-top: 5px ;
+    margin-bottom: 1px;
     font-weight: 600; 
 }
 h3{
@@ -172,13 +173,19 @@ h3{
     margin-left: 50px;
 
 }
-
+.inside--text2{
+    font-weight: 700;
+}
 .footer{
     display: flex;
     background-image: url(2x/footer.png);
     height: 100px;
     width: 650px;
     align-items: center;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+
 }
 #footerimg{
     height: 54px;
